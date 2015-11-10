@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/VerticalListViewMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Knockout"
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+
+        <LinearLayout style="@style/VerticalListView">
+
+            <TextView style="@style/AccentTextStyle"
+                android:id="@+id/quartersTop"
+                android:text="@string/quarters" />
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter3" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter4" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter5" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter6" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter7" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/quarter8" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/VerticalListView">
+
+            <TextView style="@style/AccentTextStyle"
+                android:id="@+id/semisTop"
+                android:text="@string/semis"/>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/semi1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/semi2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/semi3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/semi4" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout style="@style/VerticalListView">
+
+            <TextView style="@style/AccentTextStyle"
+                android:id="@+id/finalsTop"
+                android:text="@string/finals" />
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/final1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/final2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/VerticalListView">
+
+            <TextView style="@style/AccentTextStyle"
+                android:id="@+id/winerTop"
+                android:text="@string/winner" />
+
+            <RelativeLayout  style="@style/TeamRelativeLayout">
+
+                <EditText style="@style/TeamKnockoutStyle"
+                    android:id="@+id/winner"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button style="@style/RandomButton"
+            android:text="@string/random"
+            android:id="@+id/button"
+            android:onClick="randomPlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView  style="@style/AccentTextStyle"
+            android:id="@+id/warningText"
+            android:text="@string/invalidTeams"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">RWC Knockout</string>
+    <string name="elapsedTime">Elapsed time in secods: </string>
+
+    <string name="invalidTeams">Please, insert valid teams</string>
+    <string name="duplicatedTeam">Duplicated team</string>
+    <string name="wrongParent">Incorrect match result</string>
+
+    <string name="quarters">quarters</string>
+    <string name="semis">semis</string>
+    <string name="finals">finals</string>
+    <string name="winner">winner</string>
+
+    <string name="random">Lucky Dip</string>
+
+    <string name="AUS">Australia</string>
+    <string name="WAL">Wales</string>
+    <string name="ENG">England</string>
+    <string name="FJI">Fiji</string>
+    <string name="URU">Uruguay</string>
+
+    <string name="RSA">South Africa</string>
+    <string name="SCO">Scotland</string>
+    <string name="JPN">Japan</string>
+    <string name="SAM">Samoa</string>
+    <string name="USA">United States of America</string>
+
+    <string name="NZL">New Zealand</string>
+    <string name="ARG">Argentina</string>
+    <string name="GEO">Georgia</string>
+    <string name="TGA">Tonga</string>
+    <string name="NAM">Nambia</string>
+
+    <string name="IRE">Ireland</string>
+    <string name="FRA">France</string>
+    <string name="ITA">Italy</string>
+    <string name="ROM">Romania</string>
+    <string name="CAN">Canada</string>
+</resources>

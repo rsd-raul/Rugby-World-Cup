@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="background">#f1f1f1</color>
+
+    <color name="AUS">#006600</color>
+    <color name="WAL">#A0061E</color>
+    <color name="ENG">#FF0000</color>
+    <color name="FJI">#000000</color>
+    <color name="URU">#3674A5</color>
+
+    <color name="RSA">#003300</color>
+    <color name="SCO">#232429</color>
+    <color name="JPN">#F60202</color>
+    <color name="SAM">#323991</color>
+    <color name="USA">#CC0000</color>
+
+    <color name="NZL">#000000</color>
+    <color name="ARG">#0099FF</color>
+    <color name="GEO">#F60202</color>
+    <color name="TGA">#FF0000</color>
+    <color name="NAM">#0368AE</color>
+
+    <color name="IRE">#529083</color>
+    <color name="FRA">#2A4A95</color>
+    <color name="ITA">#0066CC</color>
+    <color name="ROM">#CC9900</color>
+    <color name="CAN">#FF0000</color>
+
+</resources>
